@@ -5,7 +5,7 @@ description: Analytics endpoints for the Analytics API
 
 **All analytics process has a 30 day expiration date.**
 
-URL: `https://api.analytics.idk.dev/api/analytics`
+URL: `https://analytic-api.zeabur.app/api/analytics`
 
 ### Create analytics process
       

@@ -3,7 +3,7 @@ title: Documents
 description: Documents endpoints for the Analytics API
 ---
 
-URL: `https://api.analytics.idk.dev/api/documents`
+URL: `https://analytic-api.zeabur.app/api/documents`
 
 ### Upload document
   ```http

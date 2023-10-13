@@ -11,13 +11,13 @@ This project is a simple implementation of pandas and fastapi to analyze anomali
 ### Create the process
 
 ```bash
-curl -X POST "https://api.analytics.idk.dev/api/analytics" -H  "accept: application/json" -H  "Content-Type: application/json" -d "{\"name\":\"my process\",\"description\":\"Process to analyze custom data\",\"webhook\":\"https://myWebhook.com\",\"dataColumn\":\"count\",\"windowSize\":30,\"threshold\":2}"
+curl -X POST "https://analytic-api.zeabur.app/api/analytics" -H  "accept: application/json" -H  "Content-Type: application/json" -d "{\"name\":\"my process\",\"description\":\"Process to analyze custom data\",\"webhook\":\"https://myWebhook.com\",\"dataColumn\":\"count\",\"windowSize\":30,\"threshold\":2}"
 ```
 
 ### Upload the data
 
 ```bash
-curl -X POST "https://api.analytics.idk.dev/api/documents" -H "accept: application/json" -H "Content-Type: multipart/form-data" -H "Authorization:"Bearer <Mytoken>"   -F "file=@myData.csv"
+curl -X POST "https://analytic-api.zeabur.app/api/documents" -H "accept: application/json" -H "Content-Type: multipart/form-data" -H "Authorization:"Bearer <Mytoken>"   -F "file=@myData.csv"
 ```
 
 ### Receive the results in your webhook
